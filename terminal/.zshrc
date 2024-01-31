@@ -117,7 +117,6 @@ alias httpl2p='ssh -R 80:localhost:80 ssh.localhost.run'
 export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 export PATH="$HOME/.local/bin:$PATH"
 
-export OPENAI_API_KEY=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
 [ -f ~/.lazyshell.zsh ] && source ~/.lazyshell.zsh
 
 # rogue delete annoying Office Templete cos I don't know how to really diable it

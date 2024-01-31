@@ -13,7 +13,7 @@ return {
                 -- require('hover.providers.gh_user')
                 -- require('hover.providers.jira')
                 -- require('hover.providers.man')
-                require('hover.providers.dictionary')
+                -- require('hover.providers.dictionary')
             end,
             preview_opts = {
                 border = nil
@@ -42,7 +42,8 @@ return {
         --     end, hover_time)
         --     return '<MouseMove>'
         -- end, { expr = true })
-
+      
+      -- second mode
       local mouse_position = vim.fn.getmousepos()
 
       vim.keymap.set({'', 'i'}, '<LeftRelease>',function()
